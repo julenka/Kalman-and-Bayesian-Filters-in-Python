@@ -106,7 +106,7 @@ def plot_estimate_chart_3():
 
     ax.annotate('', xy=[1,159], xytext=[1,164.2],
                 arrowprops=dict(arrowstyle='-',
-                                ec='k', lw=1, shrinkA=8, shrinkB=8))
+                                ec='g', lw=1, shrinkA=8, shrinkB=8))
 
     est_y = ((164.2-158)*.8 + 158)
     plt.scatter ([0,1], [158.0,est_y], c='k',s=128)
